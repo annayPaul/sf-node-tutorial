@@ -1,0 +1,25 @@
+{
+    "name": "intro-nodejs",
+    "version": "1.0.0",
+    "description": "A CSV to JSON parser",
+    "main": "index.js",
+    "directories": {
+        "test": "tap"
+    },
+    "scripts": {
+        "test": "tap",
+        "start:dev": "nodemon server.js --watch",
+        "start": "node server.js"
+    },
+    "author": "Annay Paul",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.7",
+        "tap": "^21.0.1"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "jsforce": "^3.5.2"
+    }
+}
